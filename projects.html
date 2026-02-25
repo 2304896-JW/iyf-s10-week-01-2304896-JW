@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Projects</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+
+        header {
+            background-color: #333;
+            padding: 15px;
+        }
+
+        .nav-menu {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+            padding: 0;
+            margin: 0;
+        }
+
+        .nav-menu a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+        .nav-menu a:hover {
+            text-decoration: underline;
+        }
+
+        .nav-menu a.active {
+            color: #FFD700;
+            border-bottom: 2px solid #FFD700;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        .project {
+            margin-bottom: 40px;
+        }
+
+        .project img {
+            width: 300px;
+            max-width: 100%;
+            display: block;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Josephine Wangui</h1>
+    <nav>
+        <ul class="nav-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html" class="active">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+    <h2>My Projects</h2>
+
+    <!-- Project 1 -->
+    <section class="project">
+        <h3>Student Management System</h3>
+        <p>
+            A Python-based system designed to manage student records, including 
+            registration, grading, and report generation. The project integrates 
+            a MySQL database for efficient data storage and retrieval.
+        </p>
+        <img src="project1.jpg" 
+             alt="Screenshot of Student Management System interface">
+    </section>
+
+    <!-- Project 2 -->
+    <section class="project">
+        <h3>Personal Portfolio Website</h3>
+        <p>
+            A responsive website built using HTML and CSS to showcase my skills, 
+            academic projects, and professional interests. Designed with accessibility 
+            and clean user experience in mind.
+        </p>
+        <img src="project2.jpg" 
+             alt="Screenshot of Personal Portfolio Website homepage">
+    </section>
+
+    <!-- Project 3 -->
+    <section class="project">
+        <h3>Data Analysis Mini Project</h3>
+        <p>
+            A beginner-friendly data analysis project using Python to analyze 
+            sample datasets and generate visual insights. Focused on learning 
+            data cleaning, visualization, and interpretation techniques.
+        </p>
+        <img src="project3.jpg" 
+             alt="Graph output from Data Analysis Mini Project">
+    </section>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 Josephine Wangui. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
