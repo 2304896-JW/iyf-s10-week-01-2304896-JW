@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Daily HTML Challenges</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 15px 20px;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        nav {
+            margin-top: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-right: 15px;
+            font-weight: bold;
+        }
+        nav a.active {
+            color: #FFD700;
+        }
+        section {
+            padding: 20px;
+            border-bottom: 1px solid #ddd;
+        }
+        h2 {
+            margin-top: 0;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+        }
+        figure {
+            margin: 0;
+        }
+        figure img {
+            width: 100%;
+            display: block;
+        }
+        .blog img {
+            max-width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Daily HTML Challenges</h1>
+    <nav>
+        <a href="#day1">Day 1</a>
+        <a href="#day2">Day 2</a>
+        <a href="#day3">Day 3</a>
+        <a href="#day4">Day 4</a>
+        <a href="#day5">Day 5</a>
+    </nav>
+</header>
+
+<!-- Day 1 -->
+<section id="day1">
+    <h2>Day 1: Five Tags Challenge</h2>
+    <p>HTML stands for <abbr title="HyperText Markup Language">HTML</abbr>.</p>
+    <blockquote>
+        "The best way to learn programming is by doing." 
+        <cite>— Anonymous Developer</cite>
+    </blockquote>
+    <p>Example of code snippet: <code>console.log("Hello World");</code></p>
+    <p>Don't forget to <mark>practice daily</mark>!</p>
+</section>
+
+<!-- Day 2 -->
+<section id="day2">
+    <h2>Day 2: Navigation Menu</h2>
+    <nav style="background-color:#444; padding:10px;">
+        <span style="color:white; font-weight:bold;">MySite</span>
+        <a href="#day1">Home</a>
+        <a href="#day2">About</a>
+        <a href="#day4">Projects</a>
+        <a href="#day3">Contact</a>
+    </nav>
+</section>
+
+<!-- Day 3 -->
+<section id="day3">
+    <h2>Day 3: Contact Section</h2>
+    <address>
+        123 Tech Street<br>
+        Nairobi, Kenya<br>
+        Email: <a href="mailto:josephine@example.com">josephine@example.com</a><br>
+        Phone: <a href="tel:+254700123456">+254 700 123 456</a><br>
+        Social: <a href="#">Twitter</a> | <a href="#">LinkedIn</a>
+    </address>
+</section>
+
+<!-- Day 4 -->
+<section id="day4">
+    <h2>Day 4: Photo Gallery Structure</h2>
+    <div class="gallery">
+        <figure>
+            <img src="https://via.placeholder.com/300" alt="Placeholder Image 1">
+            <figcaption>Image 1</figcaption>
+        </figure>
+        <figure>
+            <img src="https://via.placeholder.com/300" alt="Placeholder Image 2">
+            <figcaption>Image 2</figcaption>
+        </figure>
+        <figure>
+            <img src="https://via.placeholder.com/300" alt="Placeholder Image 3">
+            <figcaption>Image 3</figcaption>
+        </figure>
+        <figure>
+            <img src="https://via.placeholder.com/300" alt="Placeholder Image 4">
+            <figcaption>Image 4</figcaption>
+        </figure>
+        <figure>
+            <img src="https://via.placeholder.com/300" alt="Placeholder Image 5">
+            <figcaption>Image 5</figcaption>
+        </figure>
+        <figure>
+            <img src="https://via.placeholder.com/300" alt="Placeholder Image 6">
+            <figcaption>Image 6</figcaption>
+        </figure>
+    </div>
+</section>
+
+<!-- Day 5 -->
+<section id="day5">
+    <h2>Day 5: Blog Post Layout</h2>
+    <article class="blog">
+        <h3>How to Learn Web Development</h3>
+        <p><time datetime="2026-02-25">Feb 25, 2026</time> by <strong>Josephine Wangui</strong></p>
+        <img src="https://via.placeholder.com/800x400" alt="Featured image for blog post">
+        <h4>Introduction</h4>
+        <p>Learning web development requires patience, practice, and curiosity...</p>
+        <h4>Step 1: Start with HTML & CSS</h4>
+        <p>Begin by understanding HTML structure and CSS styling...</p>
+        <h4>Step 2: Practice Projects</h4>
+        <p>Build small projects to strengthen your skills...</p>
+        <section>
+            <h4>Related Posts</h4>
+            <ul>
+                <li><a href="#">Top 5 HTML Tips</a></li>
+                <li><a href="#">Getting Started with CSS</a></li>
+                <li><a href="#">JavaScript Basics for Beginners</a></li>
+            </ul>
+        </section>
+    </article>
+</section>
+
+<footer style="background:#333; color:white; text-align:center; padding:15px;">
+    &copy; 2026 Josephine Wangui
+</footer>
+
+</body>
+</html>
