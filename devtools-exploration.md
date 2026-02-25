@@ -58,9 +58,3 @@
 
 ---
 
-**Notes:**
-
-- You can open Chrome DevTools with `F12` or `Ctrl+Shift+I` (Windows) / `Cmd+Option+I` (Mac)  
-- Use the **Elements panel** to inspect the HTML structure  
-- Use the **Styles panel** to check CSS rules, like hover effects  
-- Use **Network or Console tabs** if needed to explore forms or scripts
