@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Semantic Site</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+        header, nav, main, article, aside, footer {
+            padding: 15px;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 15px;
+            padding: 0;
+        }
+        nav a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+        main {
+            display: flex;
+            gap: 20px;
+        }
+        article {
+            flex: 3;
+        }
+        aside {
+            flex: 1;
+            background-color: #f5f5f5;
+            padding: 10px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header with Navigation -->
+    <header>
+        <div class="logo">
+            <h1>My Site</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content Area -->
+    <main>
+        <!-- Main Article -->
+        <article>
+            <h2>Welcome to My Site</h2>
+            <p>This is my first paragraph...</p>
+            <p>This is my second paragraph...</p>
+        </article>
+
+        <!-- Sidebar / Widgets -->
+        <aside>
+            <h2>Recent Posts</h2>
+            <ul>
+                <li>Post 1</li>
+                <li>Post 2</li>
+            </ul>
+        </aside>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 My Site</p>
+    </footer>
+
+</body>
+</html>
