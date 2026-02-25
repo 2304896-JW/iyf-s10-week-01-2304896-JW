@@ -56,10 +56,6 @@
   - `<input type="search" name="search">` – search box
   - `<button type="submit">` – search button
 
-**3. Screenshot of Elements panel**
-
-- *(Take a screenshot using Chrome DevTools: Right-click → Inspect → Focus on the Elements panel → Screenshot or use Snipping Tool / Print Screen)*
-
 ---
 
 **Notes:**
